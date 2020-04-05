@@ -1,0 +1,53 @@
+/* Martha Elena García Ramos
+ A01139413 */
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    font-family:Tahoma;
+}
+
+.resultVideo{
+  border-color: #d8d8d8;
+  border-style: solid;
+}
+
+li {
+    list-style: none;
+}
+
+/* Style the search field */
+form input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #d8d8d8;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+
+/* Style the submit button */
+.searchBtn,.nextBtn, .prevBtn {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #d8d8d8;
+    color: gray;
+    font-size: 17px;
+    border: 1px solid #d8d8d8;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  .searchBtn:hover,.nextBtn:hover, .prevBtn:hover{
+    background: #bfbfbf;
+  }
+
+  .nextBtn, .prevBtn{
+    margin: 10px;
+  }
+
+  .clickable:hover {
+    cursor : pointer; 
+  }
